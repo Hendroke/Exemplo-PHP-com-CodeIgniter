@@ -1,0 +1,347 @@
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+*{
+	margin: 0; padding: 0;
+}
+
+.menu{
+list-style:none; 
+float:left; 
+}
+
+.menu li{
+position:relative; 
+float:left;
+}
+
+.menu li a{
+	color:#333;
+	text-decoration: bold;
+	padding:5px 10px;
+	display:block;
+	border-radius: 20px;
+	transition: all 0.5s ease 0s;
+}
+
+.menu li a:hover{
+background:#00AE58; 
+color:#fff; 
+text-shadow:0px 0px 2px #fff;
+text-decoration: none;
+}
+
+.menu li  ul{
+position:absolute; 
+top:25px; 
+left:0;
+background-color:#fff; 
+display:none;
+}
+
+.menu li:hover ul, .menu li.over ul{
+	display:block;
+}
+
+.menu li ul li{
+	border:1px solid #c0c0c0; 
+	display:block; 
+	width:150px;
+}
+
+div.navbar-opcoes{
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 20px;
+}
+
+div.navbar-titulo{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+div.navbar-titulo p{
+	font-size: 26px;
+	color: #434343;
+	text-transform: uppercase;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	transition: all 0.5s ease 0s;
+}
+
+div.navbar-titulo p:hover{
+	font-size: 26px;
+	color: #232323;
+	text-transform: uppercase;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-decoration: underline;
+	cursor: default;
+	text-shadow: 1px -1px 2px; 
+}
+
+div.navbar-login{
+	float: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-right: 20px;
+}
+
+div.sl1{
+	padding-top: 50px;
+}
+
+.centered-btns_nav:focus {
+    outline: medium none;
+}
+
+.centered-btns_nav.next {
+    left: auto;
+    background-position: right top;
+    right: 0px;
+}
+
+.centered-btns_nav {
+    z-index: 3;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    opacity: 0.7;
+    text-indent: -9999px;
+    overflow: hidden;
+    text-decoration: none;
+    height: 61px;
+    width: 38px;
+    background: url("http://localhost/EntrevistaWebZero/ban/themes.gif") no-repeat scroll left top transparent;
+    margin-top: 0px;
+}
+
+body {
+	background-color: #fff;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+	margin: 0px;
+	height: 100%;
+	padding: 0px;
+}
+
+div.sessao{
+	min-height: 100%;
+	position: relative;
+}
+
+header{
+	padding-bottom: 0px;
+}
+	
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#body {
+	margin: 0 15px 0 15px;
+}
+
+p.footer {
+	text-align: right;
+	font-size: 11px;
+	border-top: 1px solid #D0D0D0;
+	line-height: 32px;
+	padding: 0 10px 0 10px;
+	margin: 20px 0 0 0;
+}
+	
+nav.navbar-fix{
+	height: 50px;
+	top: 0px;
+	width: 100%;
+	position: fixed;
+	background-color: #2DCC70;
+	z-index: 100;
+	text-align: center;
+}
+
+nav.navbar-fix div{
+	display: inline-block;
+	text-align: left;
+}
+	
+div.conteudo-geral{
+	width: 1150px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#container {
+	margin: 10px;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+#container fieldset {
+	padding: 10px;
+}
+	
+div, section{
+	position: relative;
+}
+
+#sobre{
+	background: none repeat scroll 0% 0% #FFF;
+	padding: 0px;
+	margin: 50px auto;
+}
+
+section.section{
+	padding: 0px;
+}
+
+#sobre .bloco{
+	position: relative;
+	width: 370px;
+	text-align: center;
+	margin-left: 20px;
+}
+
+.linha{
+	display: flex;
+	justify-content: center;
+}
+
+.icone{
+	margin-bottom: 20px;
+}
+
+#sobre h3{
+	font-size: 20px;
+	margin-bottom: 20px;
+	font-weight: 400;
+	line-height: 1.1em;
+	color: #312F2B;
+}
+
+#sobre p.texto{
+	font-size: 16px;
+	margin-bottom: 0px;
+	font-weight: 500;
+	line-height: 1.6em;
+	color: #312F2B;
+}
+
+#sobre .ic1{
+	background: url("http://localhost/EntrevistaWebZero/imagens/icone1.jpg") no-repeat scroll 0px 0px transparent;
+	width: 100px;
+	height: 100px;
+	margin: 0px auto;
+}
+
+#sobre .ic2{
+	background: url("http://localhost/EntrevistaWebZero/imagens/icone2.jpg") no-repeat scroll 0px 0px transparent;
+	width: 100px;
+	height: 100px;
+	margin: 0px auto;
+}
+
+#sobre .ic3{
+	background: url("http://localhost/EntrevistaWebZero/imagens/icone3.jpg") no-repeat scroll 0px 0px transparent;
+	width: 100px;
+	height: 100px;
+	margin: 0px auto;
+}
+
+#newsletter{
+	min-height: 100%;
+	position: relative;
+	background: #E4DFD9;
+	margin-bottom: 50px;
+	padding: 50px 0px;
+}
+
+#newsletter .linha{
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+}
+
+#newsletter .linha div{
+	display: inline-block;
+	text-align: left;
+}
+
+#newsletter .linha div.bloco1{
+	text-align: justify;
+}
+
+#newsletter .bloco1{
+	float: left;
+	width: 430px;
+}
+
+#newsletter .bloco2{
+	float: right;
+}
+
+#newsletter h3{
+	font-size: 20px;
+	margin-bottom: 20px;
+	font-weight: 400;
+	line-height: 1.1em;
+	color: #312F2B;
+}
+
+#newsletter .player{
+	background: url("http://localhost/EntrevistaWebZero/imagens/player.jpg") no-repeat scroll 0px 0px transparent;
+	width: 500px;
+	height: 310px;
+	margin: 0px auto;
+}
+
+#newsletter p.texto{
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.6em;
+	color: #312F2B;
+}
+
+#container.login{
+	width: 300px;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#container.login form{
+	padding: 0px 20px 20px;
+	text-align: center;
+}
+
+#container.login fieldset{
+	padding: 10px;
+	text-align: center;
+}
+
